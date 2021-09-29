@@ -1,0 +1,84 @@
+
+nav {
+  height: 95px;
+  width: 100%;
+  background-color: violet;
+  color: #000;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 30px;
+  padding: 0 70px;
+  color: yellow;
+}
+
+.navitems button {
+  width: 145px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid goldenrod;
+  border-radius: 30px;
+  background-color: #0fba5c;
+  font-family: serif;
+  font-size: 20px;
+  margin: auto 0px;
+}
+
+.fetchbtn{
+  padding: 0 25px;
+}
+.fetchbtn:hover {
+  background-color: cyan;
+}
+
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: blue;  
+}
+
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.name:hover {
+  color: violet;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile_cont {
+  border-radius: 45px;
+  background-color: chartreuse;
+  margin: 5px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
