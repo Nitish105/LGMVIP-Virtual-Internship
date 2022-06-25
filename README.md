@@ -1,2 +1,4 @@
 # LGMVIP-Virtual-Internship
-## https://balancefit-gymwebsite.netlify.app/
+
+##Project - GYM WEBSITE USING HTML, CSS, JS, JQUERY
+### https://balancefit-gymwebsite.netlify.app/
